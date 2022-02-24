@@ -2,7 +2,7 @@ import React from "react";
 import { Dimensions, StyleSheet, Text, View } from "react-native";
 import Button from "./Button";
 
-const { width, height } = Dimensions.get("window");
+const { width } = Dimensions.get("window");
 
 function SubSlide({ onPress, title, subTitle, last }) {
   return (
